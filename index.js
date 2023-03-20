@@ -22,6 +22,7 @@ try {
     app.get('/', (req, res) => {
 
         res.send (`
+        <h1>Hello world</h1>
         <a href="/sendtolog?message=hello">send a message to the log</a><p>
         hostname : ${hostname}<p>
         uptime : ${uptime}<p>
